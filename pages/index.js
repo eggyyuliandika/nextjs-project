@@ -43,11 +43,6 @@ export default function Home() {
                     <button className="button-next">
                       <img src="rightarrow.png" width="24" height="24" />
                     </button>
-                  </div>
-                  <div className="display-button-next">
-                    <button className="button-next">
-                      <img src="rightarrow.png" width="24" height="24" />
-                    </button>
                     <button className="button-next1">
                       <img src="rightarrow1.png" width="24" height="24" />
                     </button>
