@@ -1,3 +1,149 @@
+@media only screen and (max-width: 1024px) {
+  div.home {
+    background-image: url(../public/background.jpg);
+    width: 100%;
+    height: 56.5vw;
+    background-position: center;
+    background-size: cover;
+  }
+
+  div.decs {
+    display: none;
+  }
+
+  div.display-home {
+    height: 420px;
+  }
+
+  div.title-home {
+    min-height: 80px;
+  }
+
+  span.title-home {
+    max-width: 668px;
+    line-height: 76px;
+    font-size: 64px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  div.fitur-scoot {
+    margin: 0px;
+    width: 470px;
+    height: 160px;
+    flex-direction: row;
+  }
+
+  div.box-fitur {
+    flex-direction: column;
+  }
+
+  div.display-box-fiturr {
+    max-width: 768px;
+  }
+
+  div.display-box-fitur {
+    margin: 32px 0;
+    padding: 8px;
+  }
+
+  .img-fitur-scoot img {
+    width: 124px;
+    height: 124px;
+  }
+
+  div.desc-fitur-scoot h2 {
+    font-size: 18px;
+
+    line-height: 24px;
+  }
+
+  div.desc-fitur-scoot h3 {
+    font-size: 14px;
+    margin: 0;
+    text-align: start;
+    line-height: 20px;
+  }
+
+  h2.h2-desc-fitur-scoot {
+    text-align: start;
+  }
+
+  button.button-fiture-scoot {
+    justify-content: start;
+  }
+
+  button.button-fiture-scoot span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  div.desc-restaurants span {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  div.subdesc-restaurants span {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  div.displaydesc-restaurants {
+    margin-left: 64px;
+    width: 298.66px;
+    height: 338.81px;
+    margin-bottom: 96px;
+  }
+
+  img.img-food {
+    width: 597.34px;
+    height: 430.81px;
+  }
+
+  div.display-restaurants {
+    margin-bottom: -80px;
+  }
+
+  div.display-food {
+    padding: 144px 0px 96px;
+  }
+
+  img.img-salad {
+    width: 597.34px;
+    height: 430.81px;
+  }
+
+  div.desc-food {
+    margin-right: 64px;
+    margin-left: 64px !important;
+    margin-bottom: 96px;
+  }
+
+  div.display-descfood span {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  div.display-subdescfood span {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  button.button-next {
+    display: none;
+  }
+
+  button.button-next1 {
+    display: inline;
+    background-color: transparent;
+  }
+}
+
 .home {
   background-image: url(../public/background.jpg);
   width: 100%;
@@ -68,7 +214,6 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  z-index: 1;
   padding-top: 16px;
   padding-bottom: 192px;
 }
@@ -192,6 +337,24 @@ input {
   padding: 0px;
   justify-content: center;
 }
+
+.button-next1 {
+  position: relative;
+  max-width: 100%;
+  margin: 0px;
+  display: none;
+  min-height: 40px;
+  border-radius: 100%;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(255, 23, 0);
+  user-select: none;
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+  justify-content: center;
+}
 /* end */
 
 /* box fitur */
@@ -223,7 +386,6 @@ input {
   flex-flow: column nowrap;
   display: flex;
   width: 100%;
-  max-width: 100%;
   min-width: 360px;
   padding: 16px;
 }
@@ -244,6 +406,10 @@ input {
 
 .desc-fitur-scoot {
   max-width: 100%;
+}
+
+.h2-desc-fitur-scoot {
+  text-align: center;
 }
 
 .desc-fitur-scoot h2 {
@@ -287,14 +453,13 @@ input {
 }
 
 .button-fiture-scoot span {
-  color: rgb(255, 23, 0);
+  color: rgb(235, 23, 0);
   font-size: 18px;
   font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
   font-weight: 700;
   line-height: 24px;
-  text-align: center;
   letter-spacing: -0.04ch;
   margin: 0px;
   padding: 0px;
@@ -372,7 +537,7 @@ input {
   align-items: center;
   border: none;
   cursor: pointer;
-  background-color: rgb(255, 23, 0);
+  background-color: rgb(217, 20, 0);
   text-align: center;
 }
 

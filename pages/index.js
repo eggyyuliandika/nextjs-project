@@ -12,37 +12,45 @@ export default function Home() {
             <button className="btn-signup">Sign Up</button>
           </div>
         </div>
-        <div className="homeee">
-          <div className="display-home">
-            <div className="doordash">
-              <img src="icon.png" width="42" height="24" />
-              <img
-                src="doordash.png"
-                width="155"
-                height="18"
-                style={{ marginLeft: 18 }}
-              />
-            </div>
-            <div className="display-title">
-              <span className="title-home">
-                Restaurants and more, delivered to your door
-              </span>
-            </div>
-            <div className="display-input-home">
-              <div className="subdisplay-input-home">
-                <div className="subdisplay1-input-home">
-                  <div className="input-home">
-                    <div className="pin-img">
-                      <img src="pin.png" width="24px" height="24px" />
-                    </div>
-                    <div className="input">
-                      <input placeholder="Enter delivery address"></input>
-                    </div>
-                    <div className="display-button-next">
-                      <button className="button-next">
-                        <img src="rightarrow.png" width="24" height="24" />
-                      </button>
-                    </div>
+
+        <div className="display-home">
+          <div className="doordash">
+            <img className="img-d" src="icon.png" width="42" height="24" />
+            <img
+              className="doordash-icon"
+              src="doordash.png"
+              width="155"
+              height="18"
+              style={{ marginLeft: 18 }}
+            />
+          </div>
+          <div className="display-title">
+            <span className="title-home">
+              Restaurants and more, delivered to your door
+            </span>
+          </div>
+          <div className="display-input-home">
+            <div className="subdisplay-input-home">
+              <div className="subdisplay1-input-home">
+                <div className="input-home">
+                  <div className="pin-img">
+                    <img src="pin.png" width="24px" height="24px" />
+                  </div>
+                  <div className="input">
+                    <input placeholder="Enter delivery address"></input>
+                  </div>
+                  <div className="display-button-next">
+                    <button className="button-next">
+                      <img src="rightarrow.png" width="24" height="24" />
+                    </button>
+                  </div>
+                  <div className="display-button-next">
+                    <button className="button-next">
+                      <img src="rightarrow.png" width="24" height="24" />
+                    </button>
+                    <button className="button-next1">
+                      <img src="rightarrow1.png" width="24" height="24" />
+                    </button>
                   </div>
                 </div>
               </div>
@@ -100,7 +108,7 @@ export default function Home() {
               </div>
               <div className="display-desc-fitur-scoot">
                 <div className="desc-fitur-scoot">
-                  <h2 style={{ textAlign: "center" }}>Become a Partner</h2>
+                  <h2 className="h2-desc-fitur-scoot">Become a Partner</h2>
                   <h3>
                     Grow your business and reach new customers by partnering
                     with us.
@@ -125,7 +133,7 @@ export default function Home() {
               </div>
               <div className="display-desc-fitur-scoot">
                 <div className="desc-fitur-scoot">
-                  <h2 style={{ textAlign: "center" }}>Try the App</h2>
+                  <h2 className="h2-desc-fitur-scoot">Try the App</h2>
                   <h3>
                     Experience the best your neighborhood has to offer, all in
                     one app.
@@ -165,14 +173,24 @@ export default function Home() {
             </div>
           </div>
           <div className="display-img-restaurants">
-            <img src="food.jpg" width="100%" height="100%" />
+            <img
+              className="img-food"
+              src="food.jpg"
+              width="100%"
+              height="100%"
+            />
           </div>
         </div>
       </div>
       <div className="display-food">
         <div className="flex-food">
           <div className="flexx-food">
-            <img src="salad.jpg" width="100%" height="100%" />
+            <img
+              className="img-salad"
+              src="salad.jpg"
+              width="100%"
+              height="100%"
+            />
           </div>
           <div className="desc-food">
             <div className="display-descfood">
