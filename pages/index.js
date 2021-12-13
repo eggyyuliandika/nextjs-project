@@ -12,35 +12,37 @@ export default function Home() {
             <button className="btn-signup">Sign Up</button>
           </div>
         </div>
-        <div className="display-home">
-          <div className="doordash">
-            <img src="icon.png" width="42" height="24" />
-            <img
-              src="doordash.png"
-              width="155"
-              height="18"
-              style={{ marginLeft: 18 }}
-            />
-          </div>
-          <div className="display-title">
-            <span className="title-home">
-              Restaurants and more, delivered to your door
-            </span>
-          </div>
-          <div className="display-input-home">
-            <div className="subdisplay-input-home">
-              <div className="subdisplay1-input-home">
-                <div className="input-home">
-                  <div className="pin-img">
-                    <img src="pin.png" width="24px" height="24px" />
-                  </div>
-                  <div className="input">
-                    <input placeholder="Enter delivery address"></input>
-                  </div>
-                  <div className="display-button-next">
-                    <button className="button-next">
-                      <img src="rightarrow.png" width="24" height="24" />
-                    </button>
+        <div className="homeee">
+          <div className="display-home">
+            <div className="doordash">
+              <img src="icon.png" width="42" height="24" />
+              <img
+                src="doordash.png"
+                width="155"
+                height="18"
+                style={{ marginLeft: 18 }}
+              />
+            </div>
+            <div className="display-title">
+              <span className="title-home">
+                Restaurants and more, delivered to your door
+              </span>
+            </div>
+            <div className="display-input-home">
+              <div className="subdisplay-input-home">
+                <div className="subdisplay1-input-home">
+                  <div className="input-home">
+                    <div className="pin-img">
+                      <img src="pin.png" width="24px" height="24px" />
+                    </div>
+                    <div className="input">
+                      <input placeholder="Enter delivery address"></input>
+                    </div>
+                    <div className="display-button-next">
+                      <button className="button-next">
+                        <img src="rightarrow.png" width="24" height="24" />
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -77,7 +79,7 @@ export default function Home() {
                 <div className="desc-fitur-scoot">
                   <h2>Become a Dasher</h2>
                   <h3>
-                    As a delivery driver, you'll make reliable money-working
+                    As a delivery driver, youll make reliable money-working
                     anytime, anywhere.
                   </h3>
                 </div>
@@ -147,7 +149,7 @@ export default function Home() {
         <div className="flex-restaurants">
           <div className="displaydesc-restaurants">
             <div className="desc-restaurants">
-              <span>It’s all here.</span>
+              <span>Its all here.</span>
               <span>All in one app.</span>
             </div>
             <div className="subdesc-restaurants">

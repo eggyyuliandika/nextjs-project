@@ -7,6 +7,10 @@
   background-size: cover;
 }
 
+.homeee {
+  width: 100vw;
+}
+
 /* button sign dan signup */
 
 .display-navbar-home {
@@ -756,10 +760,4 @@ input {
 
 .selengkapnya img {
   margin-left: 12px;
-}
-
-@media only screen and (max-width: 640px) {
-  .home {
-    background-image: url(../public/background.jpg);
-  }
 }
