@@ -393,10 +393,11 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="display-available-on-the">
-                <div className="available-on-the">
-                  <img className="img-appstore" src="appstore.png" />
-                  <img className="img-googleplay" src="gp1.png" />
+
+              <div className="app-store">
+                <div className="wrapper-app-store">
+                  <img src="/appstoreee.png" width="170" height="auto" />
+                  <img src="/googleplayyy.png" width="170" height="auto" />
                 </div>
               </div>
             </div>
