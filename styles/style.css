@@ -93,8 +93,8 @@
     margin-bottom: -80px;
   }
 
-  div.wrapperflex-box-food {
-    padding: 144px 0px 96px;
+  div.display-box-food {
+    padding: 144px 0px 96px 0px;
   }
 
   div.display-img-box-food img {
@@ -126,6 +126,18 @@
   button.button-input-home-mobile {
     display: inline;
     background-color: transparent;
+  }
+
+  div.container-list-footer-atas h2 {
+    margin: 0px 0px 8px 0px;
+  }
+
+  div.container-list-footer-atas2 h2 {
+    margin: 0px;
+  }
+
+  div.content-list-footer-bawah h2 {
+    margin: 0px 0px 8px 0px;
   }
 }
 
@@ -933,7 +945,6 @@ input {
   flex-wrap: wrap;
   justify-content: center;
   max-width: 100%;
-  align-items: center;
 }
 
 .content-end-footer a {
@@ -968,11 +979,15 @@ input {
 .icon-medsos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .icon-medsos img {
   margin-left: 12px;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
+}
+
+.enddd {
+  color: white;
 }
