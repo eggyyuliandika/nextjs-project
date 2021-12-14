@@ -45,24 +45,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="decs">
-        <div className="display-decs">
-          <div className="box-decs">
-            <div className="span-decs">
-              <span>Get the best DoorDash experience</span>
-            </div>
-            <button className="button-new">
-              <div className="display-button-new">
-                <div className="decs-display-button-new">
-                  <div className="span-button-new">
-                    <span>Get the app</span>
-                  </div>
-                </div>
-              </div>
-            </button>
-          </div>
-        </div>
-      </div> */}
       <div className="display-box-fitur">
         <div className="wrapperflex-box-fitur">
           <div className="container-box-fitur">
@@ -431,7 +413,6 @@ export default function Home() {
           </footer>
         </div>
       </div>
-      <div className="enddd">nddvdkfnvdflfdv</div>
     </div>
   );
 }

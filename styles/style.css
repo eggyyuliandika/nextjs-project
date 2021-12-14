@@ -314,8 +314,8 @@
 }
 
 .icon-input-home img {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
 }
 
 .box-input-home {
@@ -336,7 +336,7 @@ input {
     "Segoe UI Symbol";
   font-weight: 500;
   background: inherit;
-  padding: 0px;
+  padding: 0px 0px 4px 0px;
   margin: 0px;
   min-height: 24px;
   resize: vertical;
@@ -392,7 +392,7 @@ input {
 /* box fitur */
 
 .display-box-fitur {
-  margin: 0px auto;
+  margin: 0px 200px 0px 200px;
   width: 1184px;
 }
 
@@ -1001,7 +1001,4 @@ input {
 
 .icon-medsos img:hover {
   opacity: 1.5;
-}
-.enddd {
-  color: white;
 }
