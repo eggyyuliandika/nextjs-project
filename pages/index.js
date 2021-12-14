@@ -6,45 +6,37 @@ export default function Home() {
   return (
     <div>
       <div className="home">
-        <div className="display-navbar-home">
-          <div className="navbar-home">
-            <button className="btn-signin">Sign In</button>
-            <button className="btn-signup">Sign Up</button>
+        <div className="display-button-navbar-home">
+          <div className="button-navbar-home">
+            <button className="btn-signin-navbar-home">Sign In</button>
+            <button className="btn-signup-navbar-home">Sign Up</button>
           </div>
         </div>
 
-        <div className="display-home">
-          <div className="doordash">
-            <img className="img-d" src="icon.png" width="42" height="24" />
-            <img
-              className="doordash-icon"
-              src="doordash.png"
-              width="155"
-              height="18"
-              style={{ marginLeft: 18 }}
-            />
+        <div className="display-title-home">
+          <div className="logo-doordash-title-home">
+            <img className="icon-d" src="icon.png" />
+            <img className="icon-doordash" src="doordash.png" />
           </div>
-          <div className="display-title">
-            <span className="title-home">
-              Restaurants and more, delivered to your door
-            </span>
+          <div className="title-home">
+            <span>Restaurants and more, delivered to your door</span>
           </div>
-          <div className="display-input-home">
-            <div className="subdisplay-input-home">
-              <div className="subdisplay1-input-home">
+          <div className="wrapper-input-home">
+            <div className="wrapperflex-input-home">
+              <div className="display-input-home">
                 <div className="input-home">
-                  <div className="pin-img">
-                    <img src="pin.png" width="24px" height="24px" />
+                  <div className="icon-input-home">
+                    <img src="location.png" />
                   </div>
-                  <div className="input">
+                  <div className="box-input-home">
                     <input placeholder="Enter delivery address"></input>
                   </div>
-                  <div className="display-button-next">
-                    <button className="button-next">
-                      <img src="rightarrow.png" width="24" height="24" />
+                  <div className="button-input-home">
+                    <button className="button-input-home-dekstop">
+                      <img src="rightarrow.png" />
                     </button>
-                    <button className="button-next1">
-                      <img src="rightarrow1.png" width="24" height="24" />
+                    <button className="button-input-home-mobile">
+                      <img src="rightarrow1.png" />
                     </button>
                   </div>
                 </div>
@@ -53,7 +45,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="decs">
+      {/* <div className="decs">
         <div className="display-decs">
           <div className="box-decs">
             <div className="span-decs">
@@ -70,150 +62,131 @@ export default function Home() {
             </button>
           </div>
         </div>
-      </div>
-      <div className="display-box-fiturr">
-        <div className="display-box-fitur">
-          <div className="box-fitur">
-            <div className="fitur-scoot">
-              <div className="img-fitur-scoot">
-                <img src="scoot.svg" height="154" width="154" />
+      </div> */}
+      <div className="display-box-fitur">
+        <div className="wrapperflex-box-fitur">
+          <div className="container-box-fitur">
+            <div className="box-fitur">
+              <div className="img-box-fitur">
+                <img src="scoot.svg" />
               </div>
-              <div className="display-desc-fitur-scoot">
-                <div className="desc-fitur-scoot">
+              <div className="content-box-fitur">
+                <div className="desc-box-fitur">
                   <h2>Become a Dasher</h2>
                   <h3>
                     As a delivery driver, youll make reliable money-working
                     anytime, anywhere.
                   </h3>
                 </div>
-                <button className="button-fiture-scoot">
+                <button className="button-box-fitur">
                   <span>Start earning</span>
-                  <img
-                    style={{ marginLeft: "4px" }}
-                    src="arrow.png"
-                    height="16"
-                    width="16"
-                  />
+                  <img src="arrow.png" />
                 </button>
               </div>
             </div>
-            <div className="fitur-scoot">
-              <div className="img-fitur-scoot">
-                <img src="store.svg" height="154" width="154" />
+            <div className="box-fitur">
+              <div className="img-box-fitur">
+                <img src="store.svg" />
               </div>
-              <div className="display-desc-fitur-scoot">
-                <div className="desc-fitur-scoot">
-                  <h2 className="h2-desc-fitur-scoot">Become a Partner</h2>
+              <div className="content-box-fitur">
+                <div className="desc-box-fitur">
+                  <h2 className="h2-desc-fitur-store-and-mobile">
+                    Become a Partner
+                  </h2>
                   <h3>
                     Grow your business and reach new customers by partnering
                     with us.
                   </h3>
                 </div>
-                <button className="button-fiture-scoot">
+                <button className="button-box-fitur">
                   <span>Sign up your store</span>
-                  <img
-                    style={{
-                      marginLeft: "4px",
-                    }}
-                    src="arrow.png"
-                    height="16"
-                    width="16"
-                  />
+                  <img src="arrow.png" />
                 </button>
               </div>
             </div>
-            <div className="fitur-scoot">
-              <div className="img-fitur-scoot">
-                <img src="mobile.svg" height="154" width="154" />
+            <div className="box-fitur">
+              <div className="img-box-fitur">
+                <img src="mobile.svg" />
               </div>
-              <div className="display-desc-fitur-scoot">
-                <div className="desc-fitur-scoot">
-                  <h2 className="h2-desc-fitur-scoot">Try the App</h2>
+              <div className="content-box-fitur">
+                <div className="desc-box-fitur">
+                  <h2 className="h2-desc-fitur-store-and-mobile">
+                    Try the App
+                  </h2>
                   <h3>
                     Experience the best your neighborhood has to offer, all in
                     one app.
                   </h3>
                 </div>
-                <button className="button-fiture-scoot">
+                <button className="button-box-fitur">
                   <span>Get the app</span>
-                  <img
-                    style={{ marginLeft: "4px" }}
-                    src="arrow.png"
-                    height="16"
-                    width="16"
-                  />
+                  <img src="arrow.png" />
                 </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="display-restaurants">
-        <div className="flex-restaurants">
-          <div className="displaydesc-restaurants">
-            <div className="desc-restaurants">
+      <div className="display-box-restaurants">
+        <div className="wrapperflex-box-restaurants">
+          <div className="content-box-restaurants">
+            <div className="title-box-restaurants">
               <span>Its all here.</span>
               <span>All in one app.</span>
             </div>
-            <div className="subdesc-restaurants">
+            <div className="desc-box-restaurants">
               <span>
                 Discover local, on-demand delivery or Pickup from restaurants,
                 nearby grocery and convenience stores, and more.
               </span>
             </div>
-            <div>
-              <a className="gettheapp">
-                <div>Get the app</div>
-              </a>
+            <div className="display-button-box-restaurants">
+              <div className="button-box-restaurants">
+                <a className="desc-button-box-restaurants">
+                  <div>Get the app</div>
+                </a>
+              </div>
             </div>
           </div>
-          <div className="display-img-restaurants">
-            <img
-              className="img-food"
-              src="food.jpg"
-              width="100%"
-              height="100%"
-            />
+          <div className="display-img-box-restaurants">
+            <img src="food.jpg" />
           </div>
         </div>
       </div>
-      <div className="display-food">
-        <div className="flex-food">
-          <div className="flexx-food">
-            <img
-              className="img-salad"
-              src="salad.jpg"
-              width="100%"
-              height="100%"
-            />
+      <div className="display-box-food">
+        <div className="wrapperflex-box-food">
+          <div className="display-img-box-food">
+            <img src="salad.jpg" />
           </div>
-          <div className="desc-food">
-            <div className="display-descfood">
+          <div className="content-box-food">
+            <div className="title-box-food">
               <span>Every Flavor Welcome</span>
             </div>
-            <div className="display-subdescfood">
+            <div className="desc-box-food">
               <span>
                 From your neighborhood sushi spot to the burger and fries you
                 crave, choose from over 300,000 local and national favorites
                 across the U.S., Canada and Australia.
               </span>
             </div>
-            <div>
-              <a className="gettheapp">
-                <div>Find restaurants</div>
-              </a>
+            <div className="display-button-box-restaurants">
+              <div className="button-box-restaurants">
+                <a className="desc-button-box-restaurants">
+                  <div>Find Restaurants</div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="display-footer">
-        <div className="flex-footer">
+      <div className="display-list-footer">
+        <div className="box-list-footer-atas">
           <footer>
-            <div className="footer1">
-              <div className="footer2">
+            <div className="wrapperflex-list-footer-atas">
+              <div className="container-list-footer-atas">
                 <h2>Top Cities</h2>
-                <div className="footer3">
-                  <div className="list1">
+                <div className="top-cuines-list-footer-atas">
+                  <div className="content-top-cuines-list-footer-atas">
                     <a href="">
                       <span>New York City</span>
                     </a>
@@ -239,7 +212,7 @@ export default function Home() {
                       <span>Las Vegas</span>
                     </a>
                   </div>
-                  <div className="list1">
+                  <div className="content-top-cuines-list-footer-atas">
                     <a href="">
                       <span>San Francisco</span>
                     </a>
@@ -265,7 +238,7 @@ export default function Home() {
                       <span>Phoenix</span>
                     </a>
                   </div>
-                  <div className="list1">
+                  <div className="content-top-cuines-list-footer-atas">
                     <a href="">
                       <span>Denver</span>
                     </a>
@@ -293,10 +266,10 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="list1-part2">
+              <div className="container-list-footer-atas2">
                 <h2>Top Cuines Near Your</h2>
-                <div className="footer3">
-                  <div className="list1">
+                <div className="top-cuines-list-footer-atas">
+                  <div className="content-top-cuines-list-footer-atas">
                     <a href="">
                       <span>Pizza Near Me</span>
                     </a>
@@ -322,7 +295,7 @@ export default function Home() {
                       <span>Seafood Near Me</span>
                     </a>
                   </div>
-                  <div className="list1">
+                  <div className="content-top-cuines-list-footer-atas">
                     <a href="">
                       <span>Indian Food Near Me</span>
                     </a>
@@ -351,9 +324,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="list2">
-              <div className="display-list2">
-                <div className="subdisplay-list2">
+            <div className="display-list-footer-bawah">
+              <div className="container-list-footer-bawah">
+                <div className="content-list-footer-bawah">
                   <h2>Get To Know Us</h2>
                   <a href="">
                     <span>About Us</span>
@@ -392,7 +365,7 @@ export default function Home() {
                     <span>Accessibilty</span>
                   </a>
                 </div>
-                <div className="subdisplay-list2">
+                <div className="content-list-footer-bawah">
                   <h2>Let Us Help You</h2>
                   <a href="">
                     <span>Account Details</span>
@@ -404,7 +377,7 @@ export default function Home() {
                     <span>Help</span>
                   </a>
                 </div>
-                <div className="subdisplay-list2">
+                <div className="content-list-footer-bawah">
                   <h2>Doing Business</h2>
                   <a href="">
                     <span>Become a Dasher</span>
@@ -420,17 +393,17 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="available-on-the">
-                <div className="display-available-on-the">
-                  <img src="1.png" width="160" height="52" />
-                  <img src="googleplay.png" width="160" height="52" />
+              <div className="display-available-on-the">
+                <div className="available-on-the">
+                  <img className="img-appstore" src="appstore.png" />
+                  <img className="img-googleplay" src="gp1.png" />
                 </div>
               </div>
             </div>
-            <div className="end-footer">
-              <div className="desc-footer">
-                <div className="img-footer">
-                  <img src="icon.png" width="32" height="18" />
+            <div className="display-end-footer">
+              <div className="content-end-footer">
+                <div className="img-end-footer">
+                  <img src="icon.png" />
                 </div>
                 <a href="">
                   <span>Terms of Service</span>
@@ -448,10 +421,10 @@ export default function Home() {
                   <span>© 2021 DoorDash</span>
                 </a>
               </div>
-              <div className="selengkapnya">
-                <img src="facebook.png" width="24" height="24" />
-                <img src="twitter.png" width="24" height="24" />
-                <img src="instagram.png" width="24" height="24" />
+              <div className="icon-medsos">
+                <img src="facebook.png" />
+                <img src="twitter.png" />
+                <img src="instagram.png" />
               </div>
             </div>
           </footer>
